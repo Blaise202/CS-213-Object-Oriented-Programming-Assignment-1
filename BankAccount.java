@@ -4,11 +4,11 @@ public class BankAccount {
   public enum AccountType { CURRENT, SAVINGS }
 
   // Defined constants
-  private static final double CURRENT_ACCT_MIN_BALANCE = 100.0;
-  private static final double SAVINGS_ACCT_MIN_BALANCE = 50.0;
-  private static final double SAVINGS_ACCT_INTEREST_RATE = 0.05; // 5% annual interest
-  private static final double CURRENT_ACCT_MAINTENANCE_FEE = 10.0;
-  private static final int SAVINGS_WITHDRAWAL_LIMIT = 2;
+  private static double CURRENT_ACCT_MIN_BALANCE = 100.0;
+  private static double SAVINGS_ACCT_MIN_BALANCE = 50.0;
+  private static double SAVINGS_ACCT_INTEREST_RATE = 0.05; // 5% annual interest
+  private static double CURRENT_ACCT_MAINTENANCE_FEE = 10.0;
+  private static int SAVINGS_WITHDRAWAL_LIMIT = 2;
 
   // Member variables
   private AccountType acctType;
