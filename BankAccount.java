@@ -1,7 +1,10 @@
 public class BankAccount {
 
   // Enumeration for account type
-  public enum AccountType { CURRENT, SAVINGS }
+  public enum AccountType {
+    CURRENT,
+    SAVINGS
+  }
 
   // Defined constants
   private static double CURRENT_ACCT_MIN_BALANCE = 100.0;
